@@ -19,5 +19,5 @@ Administrators can manage users, create or edit event announcements, and provide
 ## Version History
 
 ## Acknowledgments
-*  [full info about app] (https://docs.google.com/spreadsheets/d/1QIBvJshd7FUIhneKRnPjP5C1CRhkfUMA4SwkG37Xu-U/edit?usp=sharing)
-*  [ER-diagram] (https://dbdiagram.io/d/66df3038550cd927eaa7e63d)
+*  [full info about app](https://docs.google.com/spreadsheets/d/1QIBvJshd7FUIhneKRnPjP5C1CRhkfUMA4SwkG37Xu-U/edit?usp=sharing)
+*  [ER-diagram](https://dbdiagram.io/d/66df3038550cd927eaa7e63d)
