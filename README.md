@@ -2,9 +2,8 @@
 poster of events at the university 
 
 ## Description
-The web application is designed to streamline event management and user interaction within a corporate and academic environment.
-The web app allows users to create accounts with their corporate emails and manage profiles securely. Users can follow events by city and university, search by date and category, and sort events by price, time, or type. Event details include name, description, venue, time, price, and registration links. Users can save events to attend and view their search history.
-Administrators can manage users, create or edit event announcements, and provide their contact details to others. The app ensures privacy while offering a streamlined event discovery and management experience.
+The web app simplifies event management for corporate and academic users. Users can register with corporate emails, follow events by city or university, and search by date and category. They can view event details, save events, and track their search history. Administrators manage users and event announcements, ensuring privacy and a streamlined experience.
+
 
 ## Getting Started
 
