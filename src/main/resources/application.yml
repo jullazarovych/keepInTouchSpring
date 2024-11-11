@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: keep-in-touch
+  datasource:
+    url: jdbc:postgresql://localhost:5432/keepintouch
+    username: postgres
+    password: 1234567899
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
