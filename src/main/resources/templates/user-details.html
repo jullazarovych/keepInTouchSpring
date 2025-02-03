@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Деталі користувача</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container my-4">
+    <h1 class="mb-4">Деталі користувача</h1>
+
+    <dl class="row">
+        <dt class="col-sm-3">Ім'я користувача</dt>
+        <dd class="col-sm-9" th:text="${user.username}">username</dd>
+
+        <dt class="col-sm-3">Email</dt>
+        <dd class="col-sm-9" th:text="${user.email}">email</dd>
+
+        <dt class="col-sm-3">Контактна інформація</dt>
+        <dd class="col-sm-9" th:text="${user.contactInfo}">contact</dd>
+
+        <dt class="col-sm-3">Університети</dt>
+        <dd class="col-sm-9">
+    <span th:each="uniName : ${universityNames}"
+          th:text="${uniName} + ' '"></span>
+        </dd>
+
+        <dt class="col-sm-3">Роль</dt>
+        <dd class="col-sm-9" th:text="${user.role}">ROLE</dd>
+
+        <dt class="col-sm-3">Дата створення</dt>
+        <dd class="col-sm-9" th:text="${user.createdAt}">2024-01-01T10:00</dd>
+
+        <dt class="col-sm-3">Дата оновлення</dt>
+        <dd class="col-sm-9" th:text="${user.updatedAt}">2024-01-02T12:00</dd>
+    </dl>
+
+    <a th:href="@{/users}" class="btn btn-secondary">Назад до списку користувачів</a>
+</div>
+</body>
+</html>
